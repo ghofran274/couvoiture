@@ -1,0 +1,37 @@
+.right {
+  width: 400px;
+  margin-top: 40px;
+}
+.detail-container {
+    flex: 1; /* Smaller than the trip list */
+    background: #ffffff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;  
+  }
+  
+  .detail-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  h2 {
+    margin-bottom:0px;
+    color: #333;
+  }
+  
+  p {
+    margin: 0px 0;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  p strong {
+    color: #555;
+  }
+  

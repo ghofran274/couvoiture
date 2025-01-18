@@ -1,0 +1,87 @@
+.BOX {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* Couleur douce pour le fond */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.colored-section fieldset {
+  border: 2px solid #b7c5be00; /* Bordure stylisée */
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff; /* Fond blanc */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #68a77f;
+  text-align: center;
+}
+
+table {
+  width: 100%; /* Étire le tableau */
+}
+
+.Form-cell {
+  padding: 6px;
+}
+
+.Form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #555;
+}
+
+.Form-group input,
+.Form-group select,
+textarea {
+  width: 100%; /* Champs en pleine largeur */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.Form-group input:focus,
+.Form-group select:focus,
+textarea:focus {
+  border-color: #0078d7;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.3);
+}
+
+textarea {
+  resize: none; /* Empêche le redimensionnement */
+}
+
+.Btn-submit {
+  margin-left: 70px;
+  display: block;
+  width: 50%;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #28863cce; /* Couleur verte pour le bouton */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+ 
+  text-transform: uppercase;
+}
+
+.Btn-submit:hover {
+  background-color: #218838; /* Couleur plus foncée au survol */
+}
+
+.ghof {
+  margin-top: 15px;
+}

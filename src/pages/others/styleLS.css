@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../image4.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-form {
+   
+    background-image: url(../Designer.png);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+ 
+  
+    
+}
+
+.signup-form h2 {
+    color: #333;
+}
+
+.signup-form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signup-form button {
+    background-color: #5fb181;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.signup-form button:hover {
+    background-color: #27ae60;
+}
+  .avatars img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer; /* Ajoute un effet de clic */
+  }
+  
+  .avatars img.selected {
+    border: 2px solid green; /* Met en évidence l'avatar sélectionné */
+  }
+  .avatars {
+    display: flex;
+    flex-wrap: wrap; /* Permet d'enrouler les avatars sur plusieurs lignes */
+    gap: 10px; /* Ajoute un espace entre les avatars */
+    justify-content: center; /* Centre les avatars horizontalement */
+    max-height: calc(5 * 60px); /* 3 lignes avec chaque avatar de 50px de hauteur + 10px de gap */
+    overflow: hidden; /* Cache les avatars qui dépassent */
+  }
+  
+

@@ -1,0 +1,140 @@
+.detail-container {
+  max-width: 250px; /* Largeur maximale de la carte */
+  margin: 20px auto; /* Centrer la carte horizontalement */
+  padding: 20px;
+  background-color: #ffffff; /* Fond blanc */
+  border-radius: 12px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  font-family: Arial, sans-serif; /* Police élégante */
+  color: #333; /* Couleur du texte */
+}
+
+.detail-container h2 {
+  font-size: 1.5rem;
+  text-align: center; /* Centrer le titre */
+  color: #2e3841; /* Bleu pour le titre */
+  margin-bottom: 20px;
+}
+
+.detail-avatar {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 20px; /* Centrer l'image et ajouter un espacement */
+  border-radius: 50%; /* Avatar circulaire */
+  object-fit: cover; /* Ajuster l'image */
+  border: 3px solid #0078d7; /* Bordure bleue */
+}
+
+.detail-container p {
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+.detail-container strong {
+  color: #000000; /* Texte en gras en bleu */
+}
+
+.rating-section {
+  margin-top: 20px;
+  text-align: center; /* Centrer les étoiles */
+}
+
+.rating-section h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.stars {
+  display: flex;
+  justify-content: center; /* Centrer les étoiles */
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.star {
+  font-size: 1.5rem;
+  color: #ccc; /* Couleur des étoiles non sélectionnées */
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.star.selected {
+  color: #ffd700; /* Couleur dorée pour les étoiles sélectionnées */
+}
+
+.rate-button {
+  padding: 10px 20px;
+  background-color: #28a745; /* Vert pour le bouton */
+  color: #fff; /* Texte blanc */
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.rate-button:disabled {
+  background-color: #ccc; /* Désactivé en gris */
+  cursor: not-allowed;
+}
+
+.rate-button:hover {
+  background-color: #218838; /* Vert foncé au survol */
+}
+
+.message-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message-input {
+  flex: 1;
+  padding: 12px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 20px;
+  background: #ffffff;
+  margin-right: 10px;
+  outline: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.message-input:focus {
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.send-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #5d8d5f;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  outline: none;
+}
+
+.send-button:hover {
+  background-color: #1bdb25;
+}
+
+.send-button:active {
+  background-color: #252b6e;
+}
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  text-align: center;
+}

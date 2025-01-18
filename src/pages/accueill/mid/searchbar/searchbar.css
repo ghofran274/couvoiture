@@ -1,0 +1,60 @@
+/* Conteneur principal de la barre de recherche */
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+  
+  /* Style de la barre de recherche */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+  }
+  
+  /* Style des champs de saisie */
+  .search-input {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 14px;
+    max-width: 130px;
+    outline: none;
+  }
+  
+  /* Champ date spécifique */
+  .date-input {
+    min-width: 120px;
+  }
+  
+  /* Style de la flèche entre départ et arrivée */
+  .search-arrow {
+    font-size: 18px;
+    color: #555;
+    margin: 0 10px;
+  }
+  
+  /* Bouton de recherche */
+  .search-button {
+    background-color: #4da462;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #218838;
+  }
+  

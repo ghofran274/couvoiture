@@ -1,0 +1,139 @@
+/* General styles */
+
+
+
+/* Contact Section */
+.Contact-Section {
+  padding: 50px 20px;
+  background-image: url(bagr.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.Contact-Section .container {
+  max-width:900px;
+  margin: 0 auto;
+  
+}
+
+.Contact-Section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.Contact-Section h2 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  color: #349376;
+}
+
+.Contact-Section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #000000;
+}
+
+.Contact-Section .form-group {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.Contact-Section label {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.Contact-Section input,
+.Contact-Section textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 8px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.Contact-Section button.submit-btn {
+  background-color: #4fa37d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.Contact-Section button.submit-btn:hover {
+  background-color: #568bac;
+}
+
+
+
+
+.Contact-Section .social-media li a:hover {
+  text-decoration: underline;
+}
+.team-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.team-member {
+  text-align: center;
+  margin: 20px;
+  width: 250px;
+}
+
+.team-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #71a2c0;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.team-member p {
+  font-size: 1.1rem;
+  color: #333;
+}
+.instagram-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.instagram-link:hover {
+  color: #e4405f; /* Couleur d'Instagram */
+}
+
+.insta-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

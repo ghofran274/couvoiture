@@ -1,0 +1,113 @@
+.trip-list-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Aligne toutes les cartes au centre */
+  gap: 20px; /* Espacement entre les cartes */
+  padding: 20px;
+  width: 100%; /* Prend tout l'espace horizontal */
+}
+
+.trip-card-styled-trip-card {
+  background-color: #ffffff; /* Fond blanc */
+  border-radius: 12px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  width: 95%; /* Prend 90% de la largeur du conteneur */
+  max-width: 800px; /* Largeur maximale sur les écrans larges */
+  overflow: hidden; /* Empêche les débordements */
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation au survol */
+}
+
+.trip-card-styled-trip-card:hover {
+  transform: scale(1.03); /* Mise en avant légère au survol */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.trip-card-header {
+  background-color: #66a588; /* Fond bleu */
+  color: #fff; /* Texte blanc */
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.trip-time {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.trip-duration {
+  font-size: 0.8rem;
+  color: #ffc107; /* Jaune pour la durée */
+}
+
+.trip-route {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.trip-arrow {
+  font-size: 1.2rem;
+  color: #ffd700; /* Flèche dorée */
+}
+
+.place {
+  font-size: 0.8rem;
+  color: #f1f1f1;
+}
+
+.trip-card-body {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trip-driver {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.driver-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Avatar circulaire */
+  object-fit: cover;
+  border: 2px solid #637685; /* Bordure bleue */
+}
+
+.driver-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.driver-name {
+  font-weight: bold;
+  color: #333; /* Texte sombre */
+}
+
+.driver-rating {
+  font-size: 0.8rem;
+  color: #ffd700; /* Couleur des étoiles */
+}
+
+.trip-price {
+  text-align: right;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #28a745; /* Vert pour le prix */
+}
+
+.trip-price .status {
+  font-size: 0.8rem;
+  color: #888; /* Couleur grise pour le statut et la date */
+}

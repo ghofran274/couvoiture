@@ -1,0 +1,305 @@
+.search-bar-full {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #5d8d5f;
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+  }
+  
+  .search-input {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    flex: 1;
+  }
+  
+  .date-picker,
+  .passenger-selector {
+    width: 150px;
+    background-color: #f5f5f5;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .search-button {
+    background-color: #5d8d5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .icon {
+    font-size: 1.5em;
+    color: #007bff;
+  }
+  
+  .main-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; /* Centre tout le contenu */
+    gap: 30px; /* Espacement entre les éléments */
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  /* Liste des trajets */
+  .trip-list {
+    flex: 1; /* Permet à la liste de s'étendre */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Carte de trajet */
+  .trip-card {
+    background-color: #ffffff;
+    border-radius: 12px; /* Bords arrondis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .trip-card:hover {
+    border: 2px solid #007bff; /* Bordure bleue */
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2); /* Ombre subtile */
+    transform: translateY(-3px); /* Légère élévation */
+    transition: all 0.3s ease; /* Transition fluide */
+  }
+  
+  
+  /* Alignement du contenu des trajets */
+  .trip-card-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+  }
+  
+  .trip-card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .driver-avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  
+  
+  .app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  
+  
+  .footer .footer-social img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  .help-bubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .help-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #00aaff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .help-icon img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .chat-window {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    z-index: 1001;
+  }
+  
+  .chat-header {
+    background: #00aaff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chat-header h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .close-chat {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .chat-body {
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .chat-message {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    max-width: 70%;
+  }
+  
+  .user-message {
+    align-self: flex-end;
+    background: #d1f1ff;
+  }
+  
+  .founder-message {
+    align-self: flex-start;
+    background: #f0f0f0;
+  }
+  
+  .chat-footer {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .chat-footer input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .chat-footer button {
+    padding: 8px 12px;
+    background: #00aaff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* Conteneur général pour le formulaire */
+  .aligned-sidebar {
+    position: fixed; /* Fixe la sidebar pour qu'elle reste visible */
+    width: 300px; /* Largeur de la sidebar */
+    background: linear-gradient(145deg, #ffffff, #f3f3f3);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+    top: 70px; /* Décalage depuis le haut pour laisser la barre de recherche */
+    left: 20px; /* Décalage depuis la gauche */
+    z-index: 1000; /* Priorité par rapport au contenu principal */
+    overflow-y: auto; /* Permet le défilement interne si nécessaire */
+  }
+  
+  /* Titre et description */
+  .sidebar-header h2 {
+    font-size: 20px;
+    color: #0078ff;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-header p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulaire */
+  .sidebar-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 14px;
+  }
+  
+  textarea.form-input {
+    height: 80px;
+    resize: none;
+  }
+  
+  .form-button {
+    background-color: #0078ff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  

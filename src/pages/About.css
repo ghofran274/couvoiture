@@ -1,0 +1,313 @@
+/* Styles pour le header */
+.Header {
+  background-color: #e2ebe6;
+  /* Couleur de fond similaire à l'image */
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  padding: 50px 20px;
+  text-align: left;
+  position: relative;
+  /* Nécessaire pour positionner les éléments à l'intérieur */
+  overflow: hidden;
+  /* Pour couper tout débordement */
+}
+
+/* Conteneur principal */
+.Header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* Pour gérer les petits écrans */
+}
+
+/* Texte dans le header */
+.Header-text h1 {
+  font-size: 3rem;
+  color: #333; 
+}
+.Header-text h1 tr {
+  font-size: 3rem;
+  color: #333; 
+}
+
+
+.Header-image img {
+  width: 400px;
+  height: auto;
+}
+
+.image8 img {
+  width: 500px;
+  /* Taille de l'image */
+  height: 400px;
+  /* Garde les proportions */
+  border-radius: 100px;
+  /* Arrondi des coins */
+}
+
+.image8 {
+  flex: 0.5;
+  /* Prend moins d'espace que le texte */
+  display: flex;
+  justify-content: center;
+
+}
+
+
+/* Alignement du paragraphe à droite */
+.text2 {
+  text-align: right;
+  /* Décale le texte vers la droite */
+  margin-right: 20px;
+  /* Ajoute un espace entre le texte et le bord droit */
+  color: #333;
+  /* Couleur du texte */
+  font-size: 1.2rem;
+  /* Taille du texte */
+  line-height: 1.6;
+  /* Hauteur de ligne pour une meilleure lisibilité */
+}
+
+.image9 {
+  flex: 0.5;
+  /* Prend moins d'espace que le texte */
+  display: flex;
+  justify-content: flex-start;
+
+  width: 300px;
+  /* Taille de l'image */
+  height: 300px;
+}
+
+/* Conteneur de la section */
+.Content-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  /* Fond optionnel */
+}
+.text1 {
+  
+  /* Décale le texte vers la droite */
+  margin-right: 20px;
+  /* Ajoute un espace entre le texte et le bord droit */
+  color: #333;
+  /* Couleur du texte */
+  font-size: 1.2rem;
+  /* Taille du texte */
+  line-height: 1.6;
+  /* Hauteur de ligne pour une meilleure lisibilité */
+}
+
+/* Alignement du paragraphe à droite */
+.text2 {
+  text-align: right;
+  /* Décale le texte vers la droite */
+  margin-right: 20px;
+  /* Ajoute un espace entre le texte et le bord droit */
+  color: #333;
+  /* Couleur du texte */
+  font-size: 1.2rem;
+  /* Taille du texte */
+  line-height: 1.6;
+  /* Hauteur de ligne pour une meilleure lisibilité */
+}
+.testimonial-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: #e5f5fe;
+  /* Couleur de fond */
+  gap: 20px;
+}
+
+/* Partie texte */
+.testimonial-text {
+  flex: 1;
+  max-width: 40%;
+  /* Limite la largeur */
+}
+
+.testimonial-text h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonial-text p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.signup-button {
+  background-color: #ffc107;
+  /* Couleur jaune */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.signup-button:hover {
+  background-color: #e0a800;
+}
+
+/* Partie des cartes */
+.testimonial-cards {
+  flex: 2;
+  display: flex;
+  gap: 20px;
+}
+
+/* Style des cartes */
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  text-align: left;
+}
+
+.testimonial-card blockquote {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.testimonial-card blockquote span {
+  color: #007bff;
+  /* Couleur bleue pour les guillemets */
+  font-size: 2rem;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.testimonial-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+
+
+.Feature {
+  flex: 1;
+  /* Assure que chaque colonne prend la même largeur */
+  padding: 20px;
+}
+
+/* Images des icônes */
+.Feature img {
+  width: 80px;
+  /* Taille des images */
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+/* Titres */
+.Feature h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Paragraphes */
+.Feature p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.Features-section {
+  display: flex;
+  /* Alignement horizontal des éléments */
+  justify-content: space-between;
+  /* Espacement égal entre les éléments */
+  text-align: center;
+  /* Centrer le contenu de chaque colonne */
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  /* Fond léger pour la section */
+  gap: 20px;
+  /* Espacement entre les éléments */
+}
+/* Style général pour la section FAQ */
+/* Style général pour la section FAQ */
+.faq-section {
+  font-family: Arial, sans-serif;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.faq-section h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; /* Espace entre les deux colonnes */
+}
+
+.faq-column {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 8px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  font-size: 1.25rem;
+  color: #0078d7;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.faq-item p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .faq-container {
+    flex-direction: column;
+    gap: 20px; /* Réduit l'espace pour les écrans étroits */
+  }
+
+  .faq-column {
+    flex: 1;
+  }
+}
+
+
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
